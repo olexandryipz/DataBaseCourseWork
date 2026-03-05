@@ -1,0 +1,44 @@
+﻿@model IEnumerable<PerfumeStore.Models.Perfume>
+
+@{
+    ViewData["Title"] = "Luxury Collection";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Наша Колекція</h1>
+        <div class="mx-auto" style="width: 60px; height: 3px; background-color: #D4AF37;"></div>
+    </div>
+
+    <div class="d-flex justify-content-end mb-4">
+        <a asp-action="Create" class="btn btn-outline-dark">Додати аромат</a>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="border-radius: 15px;">
+                    @* Фото шукається в папці wwwroot/images за назвою парфуму *@
+                    <img src="/images/@(item.Name.ToLower().Replace(" ", "")).jpg"
+                         onerror="this.src='https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=500'"
+                         class="card-img-top" style="border-radius: 15px 15px 0 0; height: 300px; object-fit: cover;">
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">@item.Name</h5>
+                        <h4 class="text-primary mb-3">@item.Price.ToString("N2") ₴</h4>
+                        <p class="text-muted small">Об'єм: @item.Volume мл</p>
+
+                        <div class="d-grid gap-2 mt-3">
+                            <a asp-action="Details" asp-route-id="@item.PerfumeId" class="btn btn-dark">Детальніше</a>
+                            <div class="btn-group btn-group-sm">
+                                <a asp-action="Edit" asp-route-id="@item.PerfumeId" class="btn btn-outline-secondary">Редагувати</a>
+                                <a asp-action="Delete" asp-route-id="@item.PerfumeId" class="btn btn-outline-danger">Видалити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
