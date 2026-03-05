@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\perfumestore.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\perfumestore.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\perfumestore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\perfumestore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerfumeStore",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\PerfumeStore.csproj",
+              "RelativeDocumentMoniker": "PerfumeStore\\PerfumeStore.csproj",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\PerfumeStore.csproj",
+              "RelativeToolTip": "PerfumeStore\\PerfumeStore.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-05T15:39:06.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Program.cs",
+              "RelativeDocumentMoniker": "PerfumeStore\\Program.cs",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Program.cs",
+              "RelativeToolTip": "PerfumeStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T15:18:36.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PerfumeStore.csproj",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\PerfumeStore.csproj",
+              "RelativeDocumentMoniker": "PerfumeStore\\PerfumeStore.csproj",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\PerfumeStore.csproj",
+              "RelativeToolTip": "PerfumeStore\\PerfumeStore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-05T15:18:32.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\appsettings.json",
+              "RelativeDocumentMoniker": "PerfumeStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\appsettings.json",
+              "RelativeToolTip": "PerfumeStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-05T15:15:17.556Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
