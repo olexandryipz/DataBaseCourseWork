@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PerfumeStore.Models;
 
@@ -11,9 +12,11 @@ using PerfumeStore.Models;
 namespace PerfumeStore.Migrations
 {
     [DbContext(typeof(PerfumeStoreContext))]
-    partial class PerfumeStoreContextModelSnapshot : ModelSnapshot
+    [Migration("20260306201602_AddOrdersAndReviews")]
+    partial class AddOrdersAndReviews
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

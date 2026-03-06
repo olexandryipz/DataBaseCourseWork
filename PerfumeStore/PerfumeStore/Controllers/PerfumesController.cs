@@ -164,6 +164,35 @@ namespace PerfumeStore.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        // =========================================================================
+        // НОВИЙ МЕТОД: ПОКУПКА ПАРФУМУ (Для всіх зареєстрованих користувачів)
+        // =========================================================================
+        [HttpPost]
+        [Authorize] // Купувати можуть тільки ті, хто увійшов в акаунт
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Buy(int perfumeId, int quantity)
+        {
+            // Беремо email користувача, який зараз на сайті
+            var userName = User.Identity.Name;
+
+            try
+            {
+                // Викликаємо нашу збережену процедуру з бази даних
+                await _context.Database.ExecuteSqlRawAsync(
+                    "EXEC sp_AddOrder @PerfumeId = {0}, @CustomerName = {1}, @Quantity = {2}",
+                    perfumeId, userName, quantity);
+
+                TempData["SuccessMessage"] = $"Замовлення успішно оформлено! Ви придбали {quantity} шт.";
+            }
+            catch (Exception)
+            {
+                TempData["SuccessMessage"] = "Помилка при оформленні замовлення. Можливо, на складі недостатньо товару.";
+            }
+
+            // Повертаємо користувача назад на сторінку товару
+            return RedirectToAction(nameof(Details), new { id = perfumeId });
+        }
+
         private bool PerfumeExists(int id)
         {
             return _context.Perfumes.Any(e => e.PerfumeId == id);

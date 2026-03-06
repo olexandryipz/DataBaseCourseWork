@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\controllers\\perfumescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\controllers\\perfumescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\views\\perfumes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\views\\perfumes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\views\\perfumes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\views\\perfumes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Migrations\\20260306201602_AddOrdersAndReviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PerfumeStore\\Migrations\\20260306201602_AddOrdersAndReviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\models\\perfumestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\models\\perfumestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|c:\\users\\oleksandr\\desktop\\perfumestorecoursework\\perfumestore\\perfumestore\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F48749D-7483-48FD-B3B7-F9679E50825C}|PerfumeStore\\PerfumeStore.csproj|solutionrelative:perfumestore\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "PerfumeStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
-              "RelativeToolTip": "PerfumeStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T13:44:54.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "PerfumeStore\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Views\\Shared\\_LoginPartial.cshtml*",
-              "RelativeToolTip": "PerfumeStore\\Views\\Shared\\_LoginPartial.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T13:44:23.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Program.cs",
-              "RelativeDocumentMoniker": "PerfumeStore\\Program.cs",
-              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Program.cs",
-              "RelativeToolTip": "PerfumeStore\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:40:03.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PerfumesController.cs",
               "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Controllers\\PerfumesController.cs",
               "RelativeDocumentMoniker": "PerfumeStore\\Controllers\\PerfumesController.cs",
               "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Controllers\\PerfumesController.cs",
               "RelativeToolTip": "PerfumeStore\\Controllers\\PerfumesController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwKsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAmwMgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:27:34.145Z",
+              "WhenOpened": "2026-03-06T20:40:02.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Views\\Perfumes\\Details.cshtml",
+              "RelativeDocumentMoniker": "PerfumeStore\\Views\\Perfumes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Views\\Perfumes\\Details.cshtml",
+              "RelativeToolTip": "PerfumeStore\\Views\\Perfumes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T20:38:41.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Views\\Perfumes\\Index.cshtml",
+              "RelativeDocumentMoniker": "PerfumeStore\\Views\\Perfumes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Views\\Perfumes\\Index.cshtml",
+              "RelativeToolTip": "PerfumeStore\\Views\\Perfumes\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T20:24:53.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PerfumeStore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PerfumeStore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T20:21:48.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PerfumeStore\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PerfumeStore\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-05T17:08:20.633Z",
+              "Title": "20260306201602_AddOrdersAndReviews.cs",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Migrations\\20260306201602_AddOrdersAndReviews.cs",
+              "RelativeDocumentMoniker": "PerfumeStore\\Migrations\\20260306201602_AddOrdersAndReviews.cs",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Migrations\\20260306201602_AddOrdersAndReviews.cs",
+              "RelativeToolTip": "PerfumeStore\\Migrations\\20260306201602_AddOrdersAndReviews.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T20:16:03.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PerfumeStoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Models\\PerfumeStoreContext.cs",
+              "RelativeDocumentMoniker": "PerfumeStore\\Models\\PerfumeStoreContext.cs",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Models\\PerfumeStoreContext.cs",
+              "RelativeToolTip": "PerfumeStore\\Models\\PerfumeStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T20:13:31.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "PerfumeStore\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Models\\Order.cs",
+              "RelativeToolTip": "PerfumeStore\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T20:13:09.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "PerfumeStore\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Oleksandr\\Desktop\\PerfumeStoreCourseWork\\PerfumeStore\\PerfumeStore\\Models\\Review.cs",
+              "RelativeToolTip": "PerfumeStore\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T20:12:46.137Z",
               "EditorCaption": ""
             }
           ]
