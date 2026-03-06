@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PerfumeStore.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PerfumeStore.Controllers
 {
@@ -18,14 +19,14 @@ namespace PerfumeStore.Controllers
             _context = context;
         }
 
-        // GET: Perfumes
+        // GET: Perfumes (ВІДКРИТО ДЛЯ ВСІХ)
         public async Task<IActionResult> Index()
         {
             var perfumeStoreContext = _context.Perfumes.Include(p => p.Brand).Include(p => p.Category);
             return View(await perfumeStoreContext.ToListAsync());
         }
 
-        // GET: Perfumes/Details/5
+        // GET: Perfumes/Details/5 (ВІДКРИТО ДЛЯ ВСІХ)
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -45,7 +46,8 @@ namespace PerfumeStore.Controllers
             return View(perfume);
         }
 
-        // GET: Perfumes/Create
+        // GET: Perfumes/Create (ТІЛЬКИ АДМІН)
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewData["BrandId"] = new SelectList(_context.Brands, "BrandId", "BrandId");
@@ -53,11 +55,10 @@ namespace PerfumeStore.Controllers
             return View();
         }
 
-        // POST: Perfumes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Perfumes/Create (ТІЛЬКИ АДМІН)
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("PerfumeId,Name,BrandId,CategoryId,Price,Volume,StockQuantity")] Perfume perfume)
         {
             if (ModelState.IsValid)
@@ -71,7 +72,8 @@ namespace PerfumeStore.Controllers
             return View(perfume);
         }
 
-        // GET: Perfumes/Edit/5
+        // GET: Perfumes/Edit/5 (ТІЛЬКИ АДМІН)
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -89,11 +91,10 @@ namespace PerfumeStore.Controllers
             return View(perfume);
         }
 
-        // POST: Perfumes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Perfumes/Edit/5 (ТІЛЬКИ АДМІН)
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("PerfumeId,Name,BrandId,CategoryId,Price,Volume,StockQuantity")] Perfume perfume)
         {
             if (id != perfume.PerfumeId)
@@ -126,7 +127,8 @@ namespace PerfumeStore.Controllers
             return View(perfume);
         }
 
-        // GET: Perfumes/Delete/5
+        // GET: Perfumes/Delete/5 (ТІЛЬКИ АДМІН)
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -146,9 +148,10 @@ namespace PerfumeStore.Controllers
             return View(perfume);
         }
 
-        // POST: Perfumes/Delete/5
+        // POST: Perfumes/Delete/5 (ТІЛЬКИ АДМІН)
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var perfume = await _context.Perfumes.FindAsync(id);

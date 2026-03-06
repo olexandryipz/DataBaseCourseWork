@@ -1,15 +1,15 @@
 USE PerfumeStore;
 GO
 
-INSERT INTO Brands (Name) VALUES ('Chanel'), ('Dior'), ('Versace');
-
-INSERT INTO Categories (Name) VALUES ('Квіткові'), ('Деревні'), ('Цитрусові');
-
-INSERT INTO Perfumes (Name, BrandID, CategoryID, Price, Volume, StockQuantity)
-VALUES 
-('Sauvage', 2, 2, 3500.00, 100, 10),
-('No. 5', 1, 1, 4200.00, 50, 5),
-('Eros', 3, 3, 2800.00, 100, 15);
+INSERT INTO AspNetRoles (Id, Name, NormalizedName, ConcurrencyStamp)
+VALUES (NEWID(), N'Admin', N'ADMIN', NEWID());
 GO
 
-SELECT * FROM Perfumes;
+DECLARE @UserEmail NVARCHAR(256) = 'ipz231_soyu@student.ztu.edu.ua';
+
+DECLARE @UserId NVARCHAR(450) = (SELECT Id FROM AspNetUsers WHERE NormalizedEmail = UPPER(@UserEmail));
+DECLARE @RoleId NVARCHAR(450) = (SELECT Id FROM AspNetRoles WHERE Name = 'Admin');
+
+INSERT INTO AspNetUserRoles (UserId, RoleId)
+VALUES (@UserId, @RoleId);
+GO

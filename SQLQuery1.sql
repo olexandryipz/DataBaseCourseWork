@@ -1,24 +1,22 @@
-CREATE DATABASE PerfumeStore;
-GO
 USE PerfumeStore;
 GO
 
-CREATE TABLE Brands (
-    BrandID INT PRIMARY KEY IDENTITY(1,1),
-    Name NVARCHAR(100) NOT NULL
-);
+INSERT INTO Categories (Name) 
+VALUES (N'Чоловічі'), (N'Жіночі'), (N'Унісекс');
+GO
 
-CREATE TABLE Categories (
-    CategoryID INT PRIMARY KEY IDENTITY(1,1),
-    Name NVARCHAR(100) NOT NULL
-);
+INSERT INTO Brands (Name) 
+VALUES (N'Chanel'), (N'Dior'), (N'Versace');
+GO
 
-CREATE TABLE Perfumes (
-    PerfumeID INT PRIMARY KEY IDENTITY(1,1),
-    Name NVARCHAR(200) NOT NULL,
-    BrandID INT FOREIGN KEY REFERENCES Brands(BrandID),
-    CategoryID INT FOREIGN KEY REFERENCES Categories(CategoryID),
-    Price DECIMAL(10, 2) NOT NULL,
-    Volume INT, -- в мл
-    StockQuantity INT DEFAULT 0
-);
+INSERT INTO Perfumes (Name, BrandId, CategoryId, Price, Volume)
+VALUES 
+(N'Sauvage', 2, 1, 4500.00, 100),
+(N'Chanel No. 5', 1, 2, 5200.00, 50),
+(N'Eros', 3, 1, 3800.00, 100);
+GO
+
+SELECT p.Name, b.Name AS Brand, c.Name AS Category, p.Price 
+FROM Perfumes p
+JOIN Brands b ON p.BrandId = b.BrandId
+JOIN Categories c ON p.CategoryId = c.CategoryId;
